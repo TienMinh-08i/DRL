@@ -1,0 +1,33 @@
+no change     /home/22010759/miniconda3/condabin/conda
+no change     /home/22010759/miniconda3/bin/conda
+no change     /home/22010759/miniconda3/bin/conda-env
+no change     /home/22010759/miniconda3/bin/activate
+no change     /home/22010759/miniconda3/bin/deactivate
+no change     /home/22010759/miniconda3/etc/profile.d/conda.sh
+no change     /home/22010759/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/22010759/miniconda3/shell/condabin/Conda.psm1
+no change     /home/22010759/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/22010759/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/22010759/miniconda3/etc/profile.d/conda.csh
+no change     /home/22010759/.bashrc
+No action taken.
+
+=== Dataset: MNIST ===
+
+--- Partition: MNIST-IID ---
+Loaded client splits từ ./results_v3/MNIST/MNIST-IID/client_splits.pkl
+[FedAvg][MNIST][10/10] Test Acc=99.04%
+[FedRL-DRL][MNIST][10/10] Test Acc=98.98%, Reward=0.0894
+[FedRL-AC][MNIST][10/10] Test Acc=99.12%, Reward=-0.0100
+
+--- Partition: MNIST-NonIID ---
+Loaded client splits từ ./results_v3/MNIST/MNIST-NonIID/client_splits.pkl
+[FedAvg][MNIST][10/10] Test Acc=70.22%
+[FedRL-DRL][MNIST][10/10] Test Acc=70.85%, Reward=0.3141
+[FedRL-AC][MNIST][10/10] Test Acc=70.87%, Reward=-0.0346
+
+--- Partition: MNIST-NonIID-Unequal ---
+Loaded client splits từ ./results_v3/MNIST/MNIST-NonIID-Unequal/client_splits.pkl
+[FedAvg][MNIST][10/10] Test Acc=99.13%
+[FedRL-DRL][MNIST][10/10] Test Acc=99.09%, Reward=0.0932
+[FedRL-AC][MNIST][10/10] Test Acc=99.05%, Reward=-0.0102

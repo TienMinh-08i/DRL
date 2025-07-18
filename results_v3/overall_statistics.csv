@@ -1,0 +1,4 @@
+Algorithm,Max_Accuracy,Final_Accuracy,Convergence_Round,Stability
+FedAvg,0.8808,0.8668,23.3333,0.0184
+FedRL-AC,0.911,0.9103,23.3333,0.0147
+FedRL-DRL,0.8952,0.6157,20.0,0.1436

@@ -1,0 +1,33 @@
+no change     /home/22010759/miniconda3/condabin/conda
+no change     /home/22010759/miniconda3/bin/conda
+no change     /home/22010759/miniconda3/bin/conda-env
+no change     /home/22010759/miniconda3/bin/activate
+no change     /home/22010759/miniconda3/bin/deactivate
+no change     /home/22010759/miniconda3/etc/profile.d/conda.sh
+no change     /home/22010759/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/22010759/miniconda3/shell/condabin/Conda.psm1
+no change     /home/22010759/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/22010759/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/22010759/miniconda3/etc/profile.d/conda.csh
+no change     /home/22010759/.bashrc
+No action taken.
+
+=== Dataset: MNIST ===
+
+--- Partition: Dirichlet ---
+Saved client splits vào ./results_v2/MNIST/Dirichlet/client_splits.pkl
+[FedAvg][MNIST][10/10] Test Acc=98.26%
+[FedRL-DRL][MNIST][10/10] Test Acc=97.49%, Reward=0.0866
+[FedRL-AC][MNIST][10/10] Test Acc=98.26%, Reward=-0.0114
+
+--- Partition: ClusterEq ---
+Saved client splits vào ./results_v2/MNIST/ClusterEq/client_splits.pkl
+[FedAvg][MNIST][10/10] Test Acc=93.56%
+[FedRL-DRL][MNIST][10/10] Test Acc=82.97%, Reward=0.1242
+[FedRL-AC][MNIST][10/10] Test Acc=92.55%, Reward=-0.0124
+
+--- Partition: ClusterNonEq ---
+Saved client splits vào ./results_v2/MNIST/ClusterNonEq/client_splits.pkl
+[FedAvg][MNIST][10/10] Test Acc=84.51%
+[FedRL-DRL][MNIST][10/10] Test Acc=47.15%, Reward=-0.1777
+[FedRL-AC][MNIST][10/10] Test Acc=89.28%, Reward=-0.0191

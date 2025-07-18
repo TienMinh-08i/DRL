@@ -1,0 +1,31 @@
+digraph {
+	rankdir=LR size="8,5"
+	I [label="Input
+1×28×28"]
+	C1 [label="Conv2d
+(1→32, 3×3)"]
+	R1 [label=ReLU]
+	C2 [label="Conv2d
+(32→64, 3×3)"]
+	R2 [label=ReLU]
+	P [label="MaxPool2d
+(2×2)"]
+	F [label=Flatten]
+	FC1 [label="Linear
+(64×12×12→128)"]
+	R3 [label=ReLU]
+	FC2 [label="Linear
+(128→10)"]
+	O [label="Output
+(1×10 logits)"]
+	I -> C1
+	C1 -> R1
+	R1 -> C2
+	C2 -> R2
+	R2 -> P
+	P -> F
+	F -> FC1
+	FC1 -> R3
+	R3 -> FC2
+	FC2 -> O
+}

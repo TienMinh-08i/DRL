@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/22010759/Minhk16/tong/main.py", line 198, in <module>
+    main()
+  File "/home/22010759/Minhk16/tong/main.py", line 195, in main
+    run_a3(cfg, partition)
+  File "/home/22010759/Minhk16/tong/main.py", line 185, in run_a3
+    a3.train_federated_improved(cfg['name'], cfg['class'], args3)
+  File "/home/22010759/Minhk16/tong/a3.py", line 331, in train_federated_improved
+    if patience_counter >= args.patience and r > args.rounds // 2:
+                           ^^^^^^^^^^^^^
+AttributeError: 'Args3' object has no attribute 'patience'

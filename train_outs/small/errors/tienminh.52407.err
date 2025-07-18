@@ -1,0 +1,2 @@
+/home/22010759/miniconda3/envs/env1/lib/python3.11/site-packages/torchvision/datasets/mnist.py:66: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")

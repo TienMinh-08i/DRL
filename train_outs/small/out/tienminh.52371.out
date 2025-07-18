@@ -1,0 +1,213 @@
+no change     /home/22010759/miniconda3/condabin/conda
+no change     /home/22010759/miniconda3/bin/conda
+no change     /home/22010759/miniconda3/bin/conda-env
+no change     /home/22010759/miniconda3/bin/activate
+no change     /home/22010759/miniconda3/bin/deactivate
+no change     /home/22010759/miniconda3/etc/profile.d/conda.sh
+no change     /home/22010759/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/22010759/miniconda3/shell/condabin/Conda.psm1
+no change     /home/22010759/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/22010759/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/22010759/miniconda3/etc/profile.d/conda.csh
+no change     /home/22010759/.bashrc
+No action taken.
+
+=== Dataset: MNIST ===
+
+--- Partition: IID ---
+Loaded client splits từ ./results_v4/MNIST/IID/client_splits.pkl
+[FedAvg][MNIST][5/100] Test Acc=98.79%
+[FedAvg][MNIST][10/100] Test Acc=99.06%
+[FedAvg][MNIST][15/100] Test Acc=99.07%
+[FedAvg][MNIST][20/100] Test Acc=99.17%
+[FedAvg][MNIST][25/100] Test Acc=99.18%
+[FedAvg][MNIST][30/100] Test Acc=99.18%
+[FedAvg][MNIST][35/100] Test Acc=99.19%
+[FedAvg][MNIST][40/100] Test Acc=99.18%
+[FedAvg][MNIST][45/100] Test Acc=99.19%
+[FedAvg][MNIST][50/100] Test Acc=99.19%
+[FedAvg][MNIST][55/100] Test Acc=99.19%
+[FedAvg][MNIST][60/100] Test Acc=99.20%
+[FedAvg][MNIST][65/100] Test Acc=99.20%
+[FedAvg][MNIST][70/100] Test Acc=99.17%
+[FedAvg][MNIST][75/100] Test Acc=99.16%
+[FedAvg][MNIST][80/100] Test Acc=99.17%
+[FedAvg][MNIST][85/100] Test Acc=99.16%
+[FedAvg][MNIST][90/100] Test Acc=99.16%
+[FedAvg][MNIST][95/100] Test Acc=99.15%
+[FedAvg][MNIST][100/100] Test Acc=99.15%
+[FedRL-AC][MNIST][5/100] Test Acc=98.95%, Reward=-0.0227
+[FedRL-AC][MNIST][10/100] Test Acc=99.13%, Reward=-0.0101
+[FedRL-AC][MNIST][15/100] Test Acc=99.19%, Reward=-0.0044
+[FedRL-AC][MNIST][20/100] Test Acc=99.12%, Reward=-0.0029
+[FedRL-AC][MNIST][25/100] Test Acc=99.16%, Reward=-0.0014
+[FedRL-AC][MNIST][30/100] Test Acc=99.12%, Reward=-0.0005
+[FedRL-AC][MNIST][35/100] Test Acc=99.08%, Reward=-0.0002
+[FedRL-AC][MNIST][40/100] Test Acc=99.08%, Reward=-0.0001
+[FedRL-AC][MNIST][45/100] Test Acc=99.09%, Reward=-0.0001
+[FedRL-AC][MNIST][50/100] Test Acc=99.08%, Reward=-0.0001
+[FedRL-AC][MNIST][55/100] Test Acc=99.08%, Reward=-0.0001
+[FedRL-AC][MNIST][60/100] Test Acc=99.08%, Reward=-0.0001
+[FedRL-AC][MNIST][65/100] Test Acc=99.08%, Reward=-0.0001
+[FedRL-AC][MNIST][70/100] Test Acc=99.09%, Reward=-0.0000
+[FedRL-AC][MNIST][75/100] Test Acc=99.09%, Reward=-0.0000
+[FedRL-AC][MNIST][80/100] Test Acc=99.09%, Reward=-0.0000
+[FedRL-AC][MNIST][85/100] Test Acc=99.09%, Reward=-0.0000
+[FedRL-AC][MNIST][90/100] Test Acc=99.10%, Reward=-0.0000
+[FedRL-AC][MNIST][95/100] Test Acc=99.10%, Reward=-0.0000
+[FedRL-AC][MNIST][100/100] Test Acc=99.10%, Reward=-0.0000
+[FedRL-PPO][MNIST] Bắt đầu training với 10 clients...
+[FedRL-PPO][MNIST][5/100] Acc=98.93% (Δ=0.0025) Reward=0.1014
+[FedRL-PPO][MNIST][10/100] Acc=99.00% (Δ=-0.0006) Reward=0.0984
+[FedRL-PPO][MNIST][15/100] Acc=99.17% (Δ=0.0007) Reward=0.0999
+[FedRL-PPO][MNIST][20/100] Acc=99.11% (Δ=-0.0002) Reward=0.0989
+[FedRL-PPO][MNIST][25/100] Acc=99.14% (Δ=-0.0010) Reward=0.0981
+[FedRL-PPO][MNIST][30/100] Acc=99.15% (Δ=0.0000) Reward=0.0992
+[FedRL-PPO][MNIST][35/100] Acc=99.20% (Δ=0.0004) Reward=0.0996
+[FedRL-PPO][MNIST][40/100] Acc=99.12% (Δ=0.0001) Reward=0.0992
+[FedRL-PPO][MNIST][45/100] Acc=99.16% (Δ=-0.0004) Reward=0.0988
+[FedRL-PPO][MNIST][50/100] Acc=99.14% (Δ=-0.0003) Reward=0.0988
+[FedRL-PPO][MNIST][55/100] Acc=99.15% (Δ=0.0005) Reward=0.0997
+[FedRL-PPO][MNIST][60/100] Acc=99.14% (Δ=-0.0005) Reward=0.0986
+[FedRL-PPO][MNIST][65/100] Acc=99.11% (Δ=-0.0001) Reward=0.0990
+[FedRL-PPO][MNIST][70/100] Acc=99.11% (Δ=0.0001) Reward=0.0992
+[FedRL-PPO][MNIST][75/100] Acc=99.11% (Δ=-0.0002) Reward=0.0989
+[FedRL-PPO][MNIST][80/100] Acc=99.13% (Δ=0.0001) Reward=0.0992
+[FedRL-PPO][MNIST][85/100] Acc=99.11% (Δ=-0.0001) Reward=0.0990
+[FedRL-PPO][MNIST][90/100] Acc=99.10% (Δ=-0.0002) Reward=0.0989
+[FedRL-PPO][MNIST][95/100] Acc=99.05% (Δ=-0.0002) Reward=0.0989
+[FedRL-PPO][MNIST][100/100] Acc=99.09% (Δ=0.0000) Reward=0.0991
+[FedRL-PPO][MNIST] Lưu kết quả vào ./results_v4/MNIST/IID/FedRL-PPO
+[FedRL-PPO][MNIST] Hoàn thành! Final accuracy: 99.09%
+
+--- Partition: NonIID ---
+Loaded client splits từ ./results_v4/MNIST/NonIID/client_splits.pkl
+[FedAvg][MNIST][5/100] Test Acc=61.06%
+[FedAvg][MNIST][10/100] Test Acc=66.78%
+[FedAvg][MNIST][15/100] Test Acc=70.59%
+[FedAvg][MNIST][20/100] Test Acc=91.29%
+[FedAvg][MNIST][25/100] Test Acc=89.68%
+[FedAvg][MNIST][30/100] Test Acc=86.91%
+[FedAvg][MNIST][35/100] Test Acc=93.50%
+[FedAvg][MNIST][40/100] Test Acc=91.70%
+[FedAvg][MNIST][45/100] Test Acc=94.23%
+[FedAvg][MNIST][50/100] Test Acc=94.09%
+[FedAvg][MNIST][55/100] Test Acc=94.99%
+[FedAvg][MNIST][60/100] Test Acc=87.52%
+[FedAvg][MNIST][65/100] Test Acc=95.13%
+[FedAvg][MNIST][70/100] Test Acc=95.43%
+[FedAvg][MNIST][75/100] Test Acc=95.66%
+[FedAvg][MNIST][80/100] Test Acc=95.80%
+[FedAvg][MNIST][85/100] Test Acc=94.84%
+[FedAvg][MNIST][90/100] Test Acc=92.36%
+[FedAvg][MNIST][95/100] Test Acc=94.83%
+[FedAvg][MNIST][100/100] Test Acc=95.93%
+[FedRL-AC][MNIST][5/100] Test Acc=68.14%, Reward=-0.1106
+[FedRL-AC][MNIST][10/100] Test Acc=51.53%, Reward=-0.0578
+[FedRL-AC][MNIST][15/100] Test Acc=77.59%, Reward=-0.0251
+[FedRL-AC][MNIST][20/100] Test Acc=83.02%, Reward=-0.0193
+[FedRL-AC][MNIST][25/100] Test Acc=91.59%, Reward=-0.0127
+[FedRL-AC][MNIST][30/100] Test Acc=87.22%, Reward=-0.0103
+[FedRL-AC][MNIST][35/100] Test Acc=90.98%, Reward=-0.0114
+[FedRL-AC][MNIST][40/100] Test Acc=93.88%, Reward=-0.0068
+[FedRL-AC][MNIST][45/100] Test Acc=95.18%, Reward=-0.0047
+[FedRL-AC][MNIST][50/100] Test Acc=95.20%, Reward=-0.0045
+[FedRL-AC][MNIST][55/100] Test Acc=94.93%, Reward=-0.0036
+[FedRL-AC][MNIST][60/100] Test Acc=94.82%, Reward=-0.0039
+[FedRL-AC][MNIST][65/100] Test Acc=92.72%, Reward=-0.0042
+[FedRL-AC][MNIST][70/100] Test Acc=94.92%, Reward=-0.0036
+[FedRL-AC][MNIST][75/100] Test Acc=96.10%, Reward=-0.0026
+[FedRL-AC][MNIST][80/100] Test Acc=95.84%, Reward=-0.0022
+[FedRL-AC][MNIST][85/100] Test Acc=95.54%, Reward=-0.0019
+[FedRL-AC][MNIST][90/100] Test Acc=95.93%, Reward=-0.0016
+[FedRL-AC][MNIST][95/100] Test Acc=95.84%, Reward=-0.0024
+[FedRL-AC][MNIST][100/100] Test Acc=96.65%, Reward=-0.0013
+[FedRL-PPO][MNIST] Bắt đầu training với 10 clients...
+[FedRL-PPO][MNIST][5/100] Acc=55.68% (Δ=0.0957) Reward=0.1514
+[FedRL-PPO][MNIST][10/100] Acc=74.84% (Δ=0.0360) Reward=0.1108
+[FedRL-PPO][MNIST][15/100] Acc=75.46% (Δ=0.1408) Reward=0.2163
+[FedRL-PPO][MNIST][20/100] Acc=69.72% (Δ=-0.1388) Reward=-0.0691
+[FedRL-PPO][MNIST][25/100] Acc=80.89% (Δ=0.0877) Reward=0.1686
+[FedRL-PPO][MNIST][30/100] Acc=84.89% (Δ=0.0720) Reward=0.1569
+[FedRL-PPO][MNIST][35/100] Acc=89.33% (Δ=0.0220) Reward=0.1113
+[FedRL-PPO][MNIST][40/100] Acc=87.00% (Δ=-0.0371) Reward=0.0499
+[FedRL-PPO][MNIST][45/100] Acc=85.23% (Δ=-0.0802) Reward=0.0050
+[FedRL-PPO][MNIST][50/100] Acc=79.73% (Δ=-0.1149) Reward=-0.0352
+[FedRL-PPO][MNIST][55/100] Acc=90.86% (Δ=0.1407) Reward=0.2316
+[FedRL-PPO][MNIST][60/100] Acc=81.82% (Δ=-0.0985) Reward=-0.0167
+[FedRL-PPO][MNIST][65/100] Acc=79.21% (Δ=0.0295) Reward=0.1087
+[FedRL-PPO][MNIST][70/100] Acc=91.82% (Δ=0.0044) Reward=0.0962
+[FedRL-PPO][MNIST][75/100] Acc=93.87% (Δ=0.0176) Reward=0.1115
+[FedRL-PPO][MNIST][80/100] Acc=87.65% (Δ=0.0138) Reward=0.1014
+[FedRL-PPO][MNIST][85/100] Acc=92.02% (Δ=-0.0226) Reward=0.0694
+[FedRL-PPO][MNIST][90/100] Acc=93.56% (Δ=0.0055) Reward=0.0991
+[FedRL-PPO][MNIST][95/100] Acc=92.24% (Δ=0.1353) Reward=0.2275
+[FedRL-PPO][MNIST][100/100] Acc=94.08% (Δ=-0.0109) Reward=0.0832
+[FedRL-PPO][MNIST] Lưu kết quả vào ./results_v4/MNIST/NonIID/FedRL-PPO
+[FedRL-PPO][MNIST] Hoàn thành! Final accuracy: 94.08%
+
+--- Partition: NonIID-Unequal ---
+Loaded client splits từ ./results_v4/MNIST/NonIID-Unequal/client_splits.pkl
+[FedAvg][MNIST][5/100] Test Acc=98.96%
+[FedAvg][MNIST][10/100] Test Acc=99.11%
+[FedAvg][MNIST][15/100] Test Acc=99.16%
+[FedAvg][MNIST][20/100] Test Acc=99.21%
+[FedAvg][MNIST][25/100] Test Acc=99.16%
+[FedAvg][MNIST][30/100] Test Acc=99.12%
+[FedAvg][MNIST][35/100] Test Acc=99.15%
+[FedAvg][MNIST][40/100] Test Acc=99.13%
+[FedAvg][MNIST][45/100] Test Acc=99.14%
+[FedAvg][MNIST][50/100] Test Acc=99.15%
+[FedAvg][MNIST][55/100] Test Acc=99.15%
+[FedAvg][MNIST][60/100] Test Acc=99.15%
+[FedAvg][MNIST][65/100] Test Acc=99.16%
+[FedAvg][MNIST][70/100] Test Acc=99.16%
+[FedAvg][MNIST][75/100] Test Acc=99.16%
+[FedAvg][MNIST][80/100] Test Acc=99.16%
+[FedAvg][MNIST][85/100] Test Acc=99.17%
+[FedAvg][MNIST][90/100] Test Acc=99.17%
+[FedAvg][MNIST][95/100] Test Acc=99.17%
+[FedAvg][MNIST][100/100] Test Acc=99.17%
+[FedRL-AC][MNIST][5/100] Test Acc=98.85%, Reward=-0.0219
+[FedRL-AC][MNIST][10/100] Test Acc=99.02%, Reward=-0.0100
+[FedRL-AC][MNIST][15/100] Test Acc=99.06%, Reward=-0.0052
+[FedRL-AC][MNIST][20/100] Test Acc=99.12%, Reward=-0.0025
+[FedRL-AC][MNIST][25/100] Test Acc=99.13%, Reward=-0.0008
+[FedRL-AC][MNIST][30/100] Test Acc=99.15%, Reward=-0.0005
+[FedRL-AC][MNIST][35/100] Test Acc=99.12%, Reward=-0.0002
+[FedRL-AC][MNIST][40/100] Test Acc=99.11%, Reward=-0.0002
+[FedRL-AC][MNIST][45/100] Test Acc=99.12%, Reward=-0.0001
+[FedRL-AC][MNIST][50/100] Test Acc=99.11%, Reward=-0.0001
+[FedRL-AC][MNIST][55/100] Test Acc=99.12%, Reward=-0.0001
+[FedRL-AC][MNIST][60/100] Test Acc=99.10%, Reward=-0.0001
+[FedRL-AC][MNIST][65/100] Test Acc=99.10%, Reward=-0.0001
+[FedRL-AC][MNIST][70/100] Test Acc=99.12%, Reward=-0.0001
+[FedRL-AC][MNIST][75/100] Test Acc=99.11%, Reward=-0.0000
+[FedRL-AC][MNIST][80/100] Test Acc=99.11%, Reward=-0.0000
+[FedRL-AC][MNIST][85/100] Test Acc=99.11%, Reward=-0.0000
+[FedRL-AC][MNIST][90/100] Test Acc=99.12%, Reward=-0.0000
+[FedRL-AC][MNIST][95/100] Test Acc=99.12%, Reward=-0.0000
+[FedRL-AC][MNIST][100/100] Test Acc=99.12%, Reward=-0.0000
+[FedRL-PPO][MNIST] Bắt đầu training với 10 clients...
+[FedRL-PPO][MNIST][5/100] Acc=99.04% (Δ=0.0001) Reward=0.0991
+[FedRL-PPO][MNIST][10/100] Acc=99.20% (Δ=0.0007) Reward=0.0999
+[FedRL-PPO][MNIST][15/100] Acc=99.19% (Δ=0.0008) Reward=0.1000
+[FedRL-PPO][MNIST][20/100] Acc=99.02% (Δ=-0.0014) Reward=0.0976
+[FedRL-PPO][MNIST][25/100] Acc=99.16% (Δ=-0.0003) Reward=0.0989
+[FedRL-PPO][MNIST][30/100] Acc=99.20% (Δ=0.0002) Reward=0.0994
+[FedRL-PPO][MNIST][35/100] Acc=99.21% (Δ=0.0005) Reward=0.0997
+[FedRL-PPO][MNIST][40/100] Acc=99.14% (Δ=0.0002) Reward=0.0993
+[FedRL-PPO][MNIST][45/100] Acc=99.15% (Δ=-0.0005) Reward=0.0987
+[FedRL-PPO][MNIST][50/100] Acc=99.09% (Δ=-0.0003) Reward=0.0988
+[FedRL-PPO][MNIST][55/100] Acc=99.09% (Δ=0.0000) Reward=0.0991
+[FedRL-PPO][MNIST][60/100] Acc=99.12% (Δ=-0.0006) Reward=0.0985
+[FedRL-PPO][MNIST][65/100] Acc=99.16% (Δ=0.0000) Reward=0.0992
+[FedRL-PPO][MNIST][70/100] Acc=99.11% (Δ=-0.0002) Reward=0.0989
+[FedRL-PPO][MNIST][75/100] Acc=99.10% (Δ=0.0000) Reward=0.0991
+[FedRL-PPO][MNIST][80/100] Acc=99.09% (Δ=0.0000) Reward=0.0991
+[FedRL-PPO][MNIST][85/100] Acc=99.08% (Δ=-0.0002) Reward=0.0989
+[FedRL-PPO][MNIST][90/100] Acc=99.07% (Δ=-0.0002) Reward=0.0989
+[FedRL-PPO][MNIST][95/100] Acc=99.08% (Δ=-0.0001) Reward=0.0990
+[FedRL-PPO][MNIST][100/100] Acc=99.08% (Δ=0.0000) Reward=0.0991
+[FedRL-PPO][MNIST] Lưu kết quả vào ./results_v4/MNIST/NonIID-Unequal/FedRL-PPO
+[FedRL-PPO][MNIST] Hoàn thành! Final accuracy: 99.08%

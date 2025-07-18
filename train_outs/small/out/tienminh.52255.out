@@ -1,0 +1,114 @@
+no change     /home/22010759/miniconda3/condabin/conda
+no change     /home/22010759/miniconda3/bin/conda
+no change     /home/22010759/miniconda3/bin/conda-env
+no change     /home/22010759/miniconda3/bin/activate
+no change     /home/22010759/miniconda3/bin/deactivate
+no change     /home/22010759/miniconda3/etc/profile.d/conda.sh
+no change     /home/22010759/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/22010759/miniconda3/shell/condabin/Conda.psm1
+no change     /home/22010759/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/22010759/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/22010759/miniconda3/etc/profile.d/conda.csh
+no change     /home/22010759/.bashrc
+No action taken.
+
+=== Dataset: MNIST ===
+
+--- Partition: MNIST-IID ---
+Loaded client splits từ ./results_v3/MNIST/MNIST-IID/client_splits.pkl
+[FedAvg][MNIST][10/100] Test Acc=99.04%
+[FedAvg][MNIST][20/100] Test Acc=99.12%
+[FedAvg][MNIST][30/100] Test Acc=99.14%
+[FedAvg][MNIST][40/100] Test Acc=99.12%
+[FedAvg][MNIST][50/100] Test Acc=99.11%
+[FedAvg][MNIST][60/100] Test Acc=99.10%
+[FedAvg][MNIST][70/100] Test Acc=99.09%
+[FedAvg][MNIST][80/100] Test Acc=99.09%
+[FedAvg][MNIST][90/100] Test Acc=99.09%
+[FedAvg][MNIST][100/100] Test Acc=99.07%
+[FedRL-DRL][MNIST][10/100] Test Acc=99.05%, Reward=0.0894
+[FedRL-DRL][MNIST][20/100] Test Acc=99.08%, Reward=0.0886
+[FedRL-DRL][MNIST][30/100] Test Acc=99.11%, Reward=0.0888
+[FedRL-DRL][MNIST][40/100] Test Acc=99.17%, Reward=0.0898
+[FedRL-DRL][MNIST][50/100] Test Acc=99.11%, Reward=0.0893
+[FedRL-DRL][MNIST][60/100] Test Acc=99.13%, Reward=0.0886
+[FedRL-DRL][MNIST][70/100] Test Acc=99.08%, Reward=0.0889
+[FedRL-DRL][MNIST][80/100] Test Acc=99.12%, Reward=0.0888
+[FedRL-DRL][MNIST][90/100] Test Acc=99.14%, Reward=0.0889
+[FedRL-DRL][MNIST][100/100] Test Acc=99.15%, Reward=0.0888
+[FedRL-AC][MNIST][10/100] Test Acc=99.08%, Reward=-0.0111
+[FedRL-AC][MNIST][20/100] Test Acc=99.16%, Reward=-0.0026
+[FedRL-AC][MNIST][30/100] Test Acc=99.12%, Reward=-0.0004
+[FedRL-AC][MNIST][40/100] Test Acc=99.13%, Reward=-0.0002
+[FedRL-AC][MNIST][50/100] Test Acc=99.13%, Reward=-0.0001
+[FedRL-AC][MNIST][60/100] Test Acc=99.12%, Reward=-0.0001
+[FedRL-AC][MNIST][70/100] Test Acc=99.12%, Reward=-0.0000
+[FedRL-AC][MNIST][80/100] Test Acc=99.11%, Reward=-0.0000
+[FedRL-AC][MNIST][90/100] Test Acc=99.10%, Reward=-0.0000
+[FedRL-AC][MNIST][100/100] Test Acc=99.10%, Reward=-0.0000
+
+--- Partition: MNIST-NonIID ---
+Loaded client splits từ ./results_v3/MNIST/MNIST-NonIID/client_splits.pkl
+[FedAvg][MNIST][10/100] Test Acc=73.50%
+[FedAvg][MNIST][20/100] Test Acc=84.72%
+[FedAvg][MNIST][30/100] Test Acc=83.32%
+[FedAvg][MNIST][40/100] Test Acc=84.72%
+[FedAvg][MNIST][50/100] Test Acc=84.63%
+[FedAvg][MNIST][60/100] Test Acc=86.94%
+[FedAvg][MNIST][70/100] Test Acc=87.26%
+[FedAvg][MNIST][80/100] Test Acc=87.45%
+[FedAvg][MNIST][90/100] Test Acc=87.52%
+[FedAvg][MNIST][100/100] Test Acc=87.53%
+[FedRL-DRL][MNIST][10/100] Test Acc=64.19%, Reward=0.1154
+[FedRL-DRL][MNIST][20/100] Test Acc=74.38%, Reward=0.1042
+[FedRL-DRL][MNIST][30/100] Test Acc=80.99%, Reward=0.0447
+[FedRL-DRL][MNIST][40/100] Test Acc=84.59%, Reward=0.0952
+[FedRL-DRL][MNIST][50/100] Test Acc=85.37%, Reward=0.0885
+[FedRL-DRL][MNIST][60/100] Test Acc=86.57%, Reward=0.1130
+[FedRL-DRL][MNIST][70/100] Test Acc=85.94%, Reward=0.0902
+[FedRL-DRL][MNIST][80/100] Test Acc=86.58%, Reward=0.0772
+[FedRL-DRL][MNIST][90/100] Test Acc=86.58%, Reward=0.0933
+[FedRL-DRL][MNIST][100/100] Test Acc=85.09%, Reward=0.0550
+[FedRL-AC][MNIST][10/100] Test Acc=78.32%, Reward=-0.0338
+[FedRL-AC][MNIST][20/100] Test Acc=83.29%, Reward=-0.0146
+[FedRL-AC][MNIST][30/100] Test Acc=85.42%, Reward=-0.0090
+[FedRL-AC][MNIST][40/100] Test Acc=86.11%, Reward=-0.0041
+[FedRL-AC][MNIST][50/100] Test Acc=86.37%, Reward=-0.0044
+[FedRL-AC][MNIST][60/100] Test Acc=87.31%, Reward=-0.0029
+[FedRL-AC][MNIST][70/100] Test Acc=87.04%, Reward=-0.0027
+[FedRL-AC][MNIST][80/100] Test Acc=87.74%, Reward=-0.0015
+[FedRL-AC][MNIST][90/100] Test Acc=87.54%, Reward=-0.0010
+[FedRL-AC][MNIST][100/100] Test Acc=87.67%, Reward=-0.0009
+
+--- Partition: MNIST-NonIID-Unequal ---
+Loaded client splits từ ./results_v3/MNIST/MNIST-NonIID-Unequal/client_splits.pkl
+[FedAvg][MNIST][10/100] Test Acc=99.11%
+[FedAvg][MNIST][20/100] Test Acc=99.07%
+[FedAvg][MNIST][30/100] Test Acc=99.06%
+[FedAvg][MNIST][40/100] Test Acc=99.08%
+[FedAvg][MNIST][50/100] Test Acc=99.08%
+[FedAvg][MNIST][60/100] Test Acc=99.08%
+[FedAvg][MNIST][70/100] Test Acc=99.10%
+[FedAvg][MNIST][80/100] Test Acc=99.09%
+[FedAvg][MNIST][90/100] Test Acc=99.10%
+[FedAvg][MNIST][100/100] Test Acc=99.11%
+[FedRL-DRL][MNIST][10/100] Test Acc=99.09%, Reward=0.0882
+[FedRL-DRL][MNIST][20/100] Test Acc=99.29%, Reward=0.0903
+[FedRL-DRL][MNIST][30/100] Test Acc=99.16%, Reward=0.0888
+[FedRL-DRL][MNIST][40/100] Test Acc=99.16%, Reward=0.0888
+[FedRL-DRL][MNIST][50/100] Test Acc=99.18%, Reward=0.0892
+[FedRL-DRL][MNIST][60/100] Test Acc=99.16%, Reward=0.0894
+[FedRL-DRL][MNIST][70/100] Test Acc=99.15%, Reward=0.0888
+[FedRL-DRL][MNIST][80/100] Test Acc=99.13%, Reward=0.0886
+[FedRL-DRL][MNIST][90/100] Test Acc=99.17%, Reward=0.0890
+[FedRL-DRL][MNIST][100/100] Test Acc=99.14%, Reward=0.0889
+[FedRL-AC][MNIST][10/100] Test Acc=99.11%, Reward=-0.0113
+[FedRL-AC][MNIST][20/100] Test Acc=99.20%, Reward=-0.0026
+[FedRL-AC][MNIST][30/100] Test Acc=99.19%, Reward=-0.0005
+[FedRL-AC][MNIST][40/100] Test Acc=99.20%, Reward=-0.0002
+[FedRL-AC][MNIST][50/100] Test Acc=99.19%, Reward=-0.0001
+[FedRL-AC][MNIST][60/100] Test Acc=99.21%, Reward=-0.0001
+[FedRL-AC][MNIST][70/100] Test Acc=99.21%, Reward=-0.0001
+[FedRL-AC][MNIST][80/100] Test Acc=99.20%, Reward=-0.0000
+[FedRL-AC][MNIST][90/100] Test Acc=99.20%, Reward=-0.0000
+[FedRL-AC][MNIST][100/100] Test Acc=99.18%, Reward=-0.0000

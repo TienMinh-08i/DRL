@@ -1,0 +1,30 @@
+no change     /home/22010759/miniconda3/condabin/conda
+no change     /home/22010759/miniconda3/bin/conda
+no change     /home/22010759/miniconda3/bin/conda-env
+no change     /home/22010759/miniconda3/bin/activate
+no change     /home/22010759/miniconda3/bin/deactivate
+no change     /home/22010759/miniconda3/etc/profile.d/conda.sh
+no change     /home/22010759/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/22010759/miniconda3/shell/condabin/Conda.psm1
+no change     /home/22010759/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/22010759/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/22010759/miniconda3/etc/profile.d/conda.csh
+no change     /home/22010759/.bashrc
+No action taken.
+
+=== Dataset: MNIST ===
+
+--- Partition: Dirichlet ---
+[FedAvg][MNIST][1/1] Test Acc=81.58%
+[FedRL-DRL][MNIST][1/1] Test Acc=77.11%, Reward=0.7010
+[FedRL-AC][MNIST][1/1] Test Acc=82.60%, Reward=-0.8930
+
+--- Partition: ClusterEq ---
+[FedAvg][MNIST][1/1] Test Acc=51.23%
+[FedRL-DRL][MNIST][1/1] Test Acc=17.94%, Reward=0.0888
+[FedRL-AC][MNIST][1/1] Test Acc=28.19%, Reward=-1.0279
+
+--- Partition: ClusterNonEq ---
+[FedAvg][MNIST][1/1] Test Acc=39.47%
+[FedRL-DRL][MNIST][1/1] Test Acc=14.63%, Reward=0.0839
+[FedRL-AC][MNIST][1/1] Test Acc=25.17%, Reward=-1.0891

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/22010759/Minhk16/tong/main.py", line 195, in <module>
+    main()
+  File "/home/22010759/Minhk16/tong/main.py", line 119, in main
+    args1 = a1.Args()
+            ^^^^^^^
+AttributeError: module 'a1' has no attribute 'Args'

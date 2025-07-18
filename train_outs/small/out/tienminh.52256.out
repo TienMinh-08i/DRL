@@ -1,0 +1,114 @@
+no change     /home/22010759/miniconda3/condabin/conda
+no change     /home/22010759/miniconda3/bin/conda
+no change     /home/22010759/miniconda3/bin/conda-env
+no change     /home/22010759/miniconda3/bin/activate
+no change     /home/22010759/miniconda3/bin/deactivate
+no change     /home/22010759/miniconda3/etc/profile.d/conda.sh
+no change     /home/22010759/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/22010759/miniconda3/shell/condabin/Conda.psm1
+no change     /home/22010759/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/22010759/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/22010759/miniconda3/etc/profile.d/conda.csh
+no change     /home/22010759/.bashrc
+No action taken.
+
+=== Dataset: FashionMNIST ===
+
+--- Partition: IID ---
+Saved client splits vào ./results_v3/FashionMNIST/IID/client_splits.pkl
+[FedAvg][FashionMNIST][10/100] Test Acc=91.91%
+[FedAvg][FashionMNIST][20/100] Test Acc=92.71%
+[FedAvg][FashionMNIST][30/100] Test Acc=92.68%
+[FedAvg][FashionMNIST][40/100] Test Acc=92.66%
+[FedAvg][FashionMNIST][50/100] Test Acc=92.73%
+[FedAvg][FashionMNIST][60/100] Test Acc=92.74%
+[FedAvg][FashionMNIST][70/100] Test Acc=92.76%
+[FedAvg][FashionMNIST][80/100] Test Acc=92.76%
+[FedAvg][FashionMNIST][90/100] Test Acc=92.82%
+[FedAvg][FashionMNIST][100/100] Test Acc=92.78%
+[FedRL-DRL][FashionMNIST][10/100] Test Acc=91.37%, Reward=0.0812
+[FedRL-DRL][FashionMNIST][20/100] Test Acc=91.95%, Reward=0.0859
+[FedRL-DRL][FashionMNIST][30/100] Test Acc=90.66%, Reward=0.0771
+[FedRL-DRL][FashionMNIST][40/100] Test Acc=10.01%, Reward=-0.0074
+[FedRL-DRL][FashionMNIST][50/100] Test Acc=10.00%, Reward=0.0036
+[FedRL-DRL][FashionMNIST][60/100] Test Acc=10.00%, Reward=0.0036
+[FedRL-DRL][FashionMNIST][70/100] Test Acc=10.00%, Reward=0.0036
+[FedRL-DRL][FashionMNIST][80/100] Test Acc=10.00%, Reward=0.0036
+[FedRL-DRL][FashionMNIST][90/100] Test Acc=10.00%, Reward=0.0036
+[FedRL-DRL][FashionMNIST][100/100] Test Acc=10.00%, Reward=0.0036
+[FedRL-AC][FashionMNIST][10/100] Test Acc=91.73%, Reward=-0.1029
+[FedRL-AC][FashionMNIST][20/100] Test Acc=92.55%, Reward=-0.0357
+[FedRL-AC][FashionMNIST][30/100] Test Acc=92.47%, Reward=-0.0123
+[FedRL-AC][FashionMNIST][40/100] Test Acc=92.58%, Reward=-0.0028
+[FedRL-AC][FashionMNIST][50/100] Test Acc=92.57%, Reward=-0.0004
+[FedRL-AC][FashionMNIST][60/100] Test Acc=92.51%, Reward=-0.0036
+[FedRL-AC][FashionMNIST][70/100] Test Acc=92.51%, Reward=-0.0002
+[FedRL-AC][FashionMNIST][80/100] Test Acc=92.47%, Reward=-0.0001
+[FedRL-AC][FashionMNIST][90/100] Test Acc=92.47%, Reward=-0.0001
+[FedRL-AC][FashionMNIST][100/100] Test Acc=92.47%, Reward=-0.0001
+
+--- Partition: NonIID ---
+Saved client splits vào ./results_v3/FashionMNIST/NonIID/client_splits.pkl
+[FedAvg][FashionMNIST][10/100] Test Acc=57.09%
+[FedAvg][FashionMNIST][20/100] Test Acc=64.92%
+[FedAvg][FashionMNIST][30/100] Test Acc=65.85%
+[FedAvg][FashionMNIST][40/100] Test Acc=68.31%
+[FedAvg][FashionMNIST][50/100] Test Acc=69.48%
+[FedAvg][FashionMNIST][60/100] Test Acc=68.52%
+[FedAvg][FashionMNIST][70/100] Test Acc=70.27%
+[FedAvg][FashionMNIST][80/100] Test Acc=65.60%
+[FedAvg][FashionMNIST][90/100] Test Acc=74.12%
+[FedAvg][FashionMNIST][100/100] Test Acc=74.49%
+[FedRL-DRL][FashionMNIST][10/100] Test Acc=50.98%, Reward=0.0422
+[FedRL-DRL][FashionMNIST][20/100] Test Acc=61.66%, Reward=-0.0052
+[FedRL-DRL][FashionMNIST][30/100] Test Acc=60.23%, Reward=0.0232
+[FedRL-DRL][FashionMNIST][40/100] Test Acc=66.49%, Reward=0.0436
+[FedRL-DRL][FashionMNIST][50/100] Test Acc=67.39%, Reward=0.0818
+[FedRL-DRL][FashionMNIST][60/100] Test Acc=67.46%, Reward=0.0795
+[FedRL-DRL][FashionMNIST][70/100] Test Acc=65.41%, Reward=0.0016
+[FedRL-DRL][FashionMNIST][80/100] Test Acc=67.70%, Reward=0.0383
+[FedRL-DRL][FashionMNIST][90/100] Test Acc=68.61%, Reward=0.0541
+[FedRL-DRL][FashionMNIST][100/100] Test Acc=66.05%, Reward=0.0438
+[FedRL-AC][FashionMNIST][10/100] Test Acc=58.44%, Reward=-0.1042
+[FedRL-AC][FashionMNIST][20/100] Test Acc=63.55%, Reward=-0.0613
+[FedRL-AC][FashionMNIST][30/100] Test Acc=66.87%, Reward=-0.0394
+[FedRL-AC][FashionMNIST][40/100] Test Acc=69.50%, Reward=-0.0260
+[FedRL-AC][FashionMNIST][50/100] Test Acc=69.65%, Reward=-0.0188
+[FedRL-AC][FashionMNIST][60/100] Test Acc=71.03%, Reward=-0.0139
+[FedRL-AC][FashionMNIST][70/100] Test Acc=72.79%, Reward=-0.0194
+[FedRL-AC][FashionMNIST][80/100] Test Acc=74.26%, Reward=-0.0092
+[FedRL-AC][FashionMNIST][90/100] Test Acc=75.37%, Reward=-0.0144
+[FedRL-AC][FashionMNIST][100/100] Test Acc=75.26%, Reward=-0.0104
+
+--- Partition: NonIID-Unequal ---
+Saved client splits vào ./results_v3/FashionMNIST/NonIID-Unequal/client_splits.pkl
+[FedAvg][FashionMNIST][10/100] Test Acc=92.27%
+[FedAvg][FashionMNIST][20/100] Test Acc=92.09%
+[FedAvg][FashionMNIST][30/100] Test Acc=92.47%
+[FedAvg][FashionMNIST][40/100] Test Acc=92.64%
+[FedAvg][FashionMNIST][50/100] Test Acc=92.66%
+[FedAvg][FashionMNIST][60/100] Test Acc=92.77%
+[FedAvg][FashionMNIST][70/100] Test Acc=92.77%
+[FedAvg][FashionMNIST][80/100] Test Acc=92.78%
+[FedAvg][FashionMNIST][90/100] Test Acc=92.75%
+[FedAvg][FashionMNIST][100/100] Test Acc=92.76%
+[FedRL-DRL][FashionMNIST][10/100] Test Acc=91.53%, Reward=0.0816
+[FedRL-DRL][FashionMNIST][20/100] Test Acc=90.98%, Reward=0.0760
+[FedRL-DRL][FashionMNIST][30/100] Test Acc=90.84%, Reward=0.0834
+[FedRL-DRL][FashionMNIST][40/100] Test Acc=89.62%, Reward=0.0831
+[FedRL-DRL][FashionMNIST][50/100] Test Acc=88.08%, Reward=0.0566
+[FedRL-DRL][FashionMNIST][60/100] Test Acc=90.31%, Reward=0.0869
+[FedRL-DRL][FashionMNIST][70/100] Test Acc=49.09%, Reward=-0.2989
+[FedRL-DRL][FashionMNIST][80/100] Test Acc=89.52%, Reward=0.0828
+[FedRL-DRL][FashionMNIST][90/100] Test Acc=10.00%, Reward=0.0000
+[FedRL-DRL][FashionMNIST][100/100] Test Acc=10.00%, Reward=0.0000
+[FedRL-AC][FashionMNIST][10/100] Test Acc=92.06%, Reward=-0.1027
+[FedRL-AC][FashionMNIST][20/100] Test Acc=92.50%, Reward=-0.0348
+[FedRL-AC][FashionMNIST][30/100] Test Acc=92.44%, Reward=-0.0108
+[FedRL-AC][FashionMNIST][40/100] Test Acc=92.39%, Reward=-0.0032
+[FedRL-AC][FashionMNIST][50/100] Test Acc=92.40%, Reward=-0.0006
+[FedRL-AC][FashionMNIST][60/100] Test Acc=92.41%, Reward=-0.0003
+[FedRL-AC][FashionMNIST][70/100] Test Acc=92.54%, Reward=-0.0003
+[FedRL-AC][FashionMNIST][80/100] Test Acc=92.44%, Reward=-0.0002
+[FedRL-AC][FashionMNIST][90/100] Test Acc=92.49%, Reward=-0.0001
+[FedRL-AC][FashionMNIST][100/100] Test Acc=92.51%, Reward=-0.0001

@@ -1,0 +1,10 @@
+Dataset,Partition,Algorithm,Max Accuracy,Final Accuracy,Convergence Round,Stability (std),Total Rounds
+FashionMNIST,Dirichlet,FedAvg,0.9204,0.9171,10,0.0046,10
+FashionMNIST,Dirichlet,FedRL-DRL,0.9089,0.7328,10,0.1222,10
+FashionMNIST,Dirichlet,FedRL-AC,0.9209,0.9209,10,0.0051,10
+FashionMNIST,ClusterEq,FedAvg,0.8353,0.8081,30,0.0364,10
+FashionMNIST,ClusterEq,FedRL-DRL,0.7264,0.6259,80,0.1085,10
+FashionMNIST,ClusterEq,FedRL-AC,0.8516,0.8516,30,0.0582,10
+FashionMNIST,ClusterNonEq,FedAvg,0.8160,0.7903,40,0.0493,10
+FashionMNIST,ClusterNonEq,FedRL-DRL,0.5467,0.1000,30,0.1932,10
+FashionMNIST,ClusterNonEq,FedRL-AC,0.8364,0.7765,40,0.0542,10

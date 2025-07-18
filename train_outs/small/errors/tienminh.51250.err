@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/22010759/Minhk16/tong/main.py", line 213, in <module>
+    main()
+  File "/home/22010759/Minhk16/tong/main.py", line 208, in main
+    run_a1(cfg, partition)
+  File "/home/22010759/Minhk16/tong/main.py", line 156, in run_a1
+    a1.train_fedrl(train_ds, test_ds, args1, cfg['model_fn_a1'], f"{cfg['name']}_{partition}_a1")
+  File "/home/22010759/Minhk16/tong/a1.py", line 366, in train_fedrl
+    clients_idx = cluster_equal_partition(train_ds, args.num_clients, main_ratio=0.6, labels_per_client=2)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: run_a1.<locals>.<lambda>() got an unexpected keyword argument 'main_ratio'

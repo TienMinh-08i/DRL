@@ -1,0 +1,10 @@
+Dataset,Partition,Algorithm,Max Accuracy,Final Accuracy,Convergence Round,Stability (std),Total Rounds
+MNIST,Dirichlet,FedAvg,0.9897,0.9895,10,0.0006,10
+MNIST,Dirichlet,FedRL-DRL,0.9902,0.9902,10,0.0010,10
+MNIST,Dirichlet,FedRL-AC,0.9907,0.9902,10,0.0011,10
+MNIST,ClusterEq,FedAvg,0.9823,0.9823,10,0.0101,10
+MNIST,ClusterEq,FedRL-DRL,0.9574,0.9532,40,0.0435,10
+MNIST,ClusterEq,FedRL-AC,0.9800,0.9800,20,0.0207,10
+MNIST,ClusterNonEq,FedAvg,0.9831,0.9831,20,0.0256,10
+MNIST,ClusterNonEq,FedRL-DRL,0.9452,0.9452,40,0.0618,10
+MNIST,ClusterNonEq,FedRL-AC,0.9781,0.9781,20,0.0267,10

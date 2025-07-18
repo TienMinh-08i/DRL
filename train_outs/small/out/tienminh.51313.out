@@ -1,0 +1,30 @@
+no change     /home/22010759/miniconda3/condabin/conda
+no change     /home/22010759/miniconda3/bin/conda
+no change     /home/22010759/miniconda3/bin/conda-env
+no change     /home/22010759/miniconda3/bin/activate
+no change     /home/22010759/miniconda3/bin/deactivate
+no change     /home/22010759/miniconda3/etc/profile.d/conda.sh
+no change     /home/22010759/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/22010759/miniconda3/shell/condabin/Conda.psm1
+no change     /home/22010759/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/22010759/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/22010759/miniconda3/etc/profile.d/conda.csh
+no change     /home/22010759/.bashrc
+No action taken.
+
+=== Dataset: FashionMNIST ===
+
+--- Partition: Dirichlet ---
+[FedAvg][FashionMNIST][1/1] Test Acc=73.23%
+[FedRL-DRL][FashionMNIST][1/1] Test Acc=64.77%, Reward=0.5550
+[FedRL-AC][FashionMNIST][1/1] Test Acc=73.74%, Reward=-0.9243
+
+--- Partition: ClusterEq ---
+[FedAvg][FashionMNIST][1/1] Test Acc=44.85%
+[FedRL-DRL][FashionMNIST][1/1] Test Acc=28.58%, Reward=0.2087
+[FedRL-AC][FashionMNIST][1/1] Test Acc=24.99%, Reward=-1.0379
+
+--- Partition: ClusterNonEq ---
+[FedAvg][FashionMNIST][1/1] Test Acc=34.18%
+[FedRL-DRL][FashionMNIST][1/1] Test Acc=19.99%, Reward=0.1076
+[FedRL-AC][FashionMNIST][1/1] Test Acc=28.02%, Reward=-1.0152
